@@ -26,6 +26,7 @@ import {
 } from 'react-native/Libraries/NewAppScreen';
 
 import { Search } from './screens/Search';
+import {Home} from './screens/Home';
 
 // type SectionProps = PropsWithChildren<{
 //   title: string;
@@ -41,7 +42,8 @@ function App(): JSX.Element {
   return (
         <>
                 <StatusBar barStyle="dark-content" backgroundColor="#00aaff" />
-                <Search />
+                {/* <Search /> */}
+                <Home />
         </>
   );
 }
